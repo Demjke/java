@@ -1,11 +1,13 @@
 package lesson2;
 
+import java.util.List;
+
 public interface QueueBehaviour {
-    void takeInQueue(Actor actor);
+    void takeInQueue(Human actor);
 
     void takeOrders();
 
-    void giveOrders();
+    void giveOrders(Human actor, List<EProduct> products);
 
-    void releaseFromQueue();
+    void releaseFromQueue(Human actor);
 }

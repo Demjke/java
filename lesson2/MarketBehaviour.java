@@ -1,11 +1,9 @@
 package lesson2;
 
-import java.util.List;
-
 public interface MarketBehaviour {
-    void acceptToMarket(Actor actor);
+    void acceptToMarket(Human actor);
 
-    void releaseFromMarket(List<Actor> actors);
+    void releaseFromMarket(Human actor);
 
     void update();
 
