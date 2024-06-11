@@ -21,14 +21,14 @@ public class Main {
         VendingMachine hdvm = new HotDrinkVendingMachine();
 
         System.out.println(vm.getProducts());
-        vm.initProducts(List.of(bottle1, bottle1, bottle1, bottle2, bottle2,
+        vm.addProducts(List.of(bottle1, bottle1, bottle1, bottle2, bottle2,
                 bottle2));
         System.out.println(vm.getProducts());
         vm.getProduct("Родники");
         System.out.println(vm.getProducts());
 
         System.out.println(hdvm.getProducts());
-        hdvm.initProducts(List.of(bottle3, bottle3, bottle4, bottle4));
+        hdvm.addProducts(List.of(bottle3, bottle3, bottle4, bottle4));
         System.out.println(hdvm.getProducts());
         hdvm.getProduct("Кофе");
         System.out.println(hdvm.getProducts());

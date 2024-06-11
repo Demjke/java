@@ -13,4 +13,9 @@ public class HotDrinkVendingMachine extends VendingMachine {
     public HotDrinkVendingMachine(List<Product> products) {
         super(products);
     }
+
+    @Override
+    public void addProducts(List<Product> products) {
+        this.products.addAll(products);
+    }
 }

@@ -3,8 +3,8 @@ package lesson1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VendingMachine {
-    private List<Product> products = new ArrayList<>();
+public abstract class VendingMachine {
+    protected List<Product> products = new ArrayList<>();
 
     public VendingMachine() {
         this.products = new ArrayList<>();
@@ -14,9 +14,7 @@ public class VendingMachine {
         this.products = products;
     }
 
-    public void initProducts(List<Product> products) {
-        this.products.addAll(products);
-    }
+    public abstract void addProducts(List<Product> products);
 
     public Product getProduct(String name) {
         for (Product product : products) {
