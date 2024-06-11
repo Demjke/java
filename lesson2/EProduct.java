@@ -2,13 +2,9 @@ package lesson2;
 
 public enum EProduct {
 
-    APPLE("Яблоко"),
     POTATO("Картошка"),
-    JUICE("Сок"),
-    SUGAR("Сахар"),
-    FILE("Филе"),
-    MEAT("Мясо"),
-    VODKA("Водка");
+    BURGER("Бургер"),
+    KOLA("Кола");
 
     private String title;
 
