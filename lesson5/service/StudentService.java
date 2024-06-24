@@ -1,9 +1,9 @@
-package lesson5.com_exzample_uni.service;
+package lesson5.service;
 
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.db.dataBase;
-import lesson5.com_exzample_uni.model.impl.Student;
+import lesson5.model.db.dataBase;
+import lesson5.model.impl.Student;
 
 public class StudentService {
     public Student createStudent(int id, String name, String lastName, int idgroup) {

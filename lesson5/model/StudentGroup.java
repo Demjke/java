@@ -1,10 +1,10 @@
-package lesson5.com_exzample_uni.model;
+package lesson5.model;
 
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.impl.Student;
-import lesson5.com_exzample_uni.model.impl.Teacher;
-import lesson5.com_exzample_uni.model.db.dataBase;
+import lesson5.model.impl.Student;
+import lesson5.model.impl.Teacher;
+import lesson5.model.db.dataBase;
 
 public class StudentGroup {
 

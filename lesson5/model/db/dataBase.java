@@ -1,12 +1,12 @@
-package lesson5.com_exzample_uni.model.db;
+package lesson5.model.db;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.impl.Student;
-import lesson5.com_exzample_uni.model.impl.Teacher;
-import lesson5.com_exzample_uni.model.StudentGroup;
-import lesson5.com_exzample_uni.service.TeacherService;
+import lesson5.model.impl.Student;
+import lesson5.model.impl.Teacher;
+import lesson5.model.StudentGroup;
+import lesson5.service.TeacherService;
 
 public class dataBase {
     public static final List<Student> studentsDB = new ArrayList<>();

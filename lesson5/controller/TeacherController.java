@@ -1,7 +1,7 @@
-package lesson5.com_exzample_uni.controller;
+package lesson5.controller;
 
-import lesson5.com_exzample_uni.model.impl.Teacher;
-import lesson5.com_exzample_uni.service.TeacherService;
+import lesson5.model.impl.Teacher;
+import lesson5.service.TeacherService;
 
 public class TeacherController {
     TeacherService service = new TeacherService();

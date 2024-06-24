@@ -1,8 +1,8 @@
-package lesson5.com_exzample_uni.service;
+package lesson5.service;
 
-import lesson5.com_exzample_uni.model.StudentGroup;
-import lesson5.com_exzample_uni.model.db.dataBase;
-import lesson5.com_exzample_uni.model.impl.Teacher;
+import lesson5.model.StudentGroup;
+import lesson5.model.db.dataBase;
+import lesson5.model.impl.Teacher;
 
 public class TeacherService {
 

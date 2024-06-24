@@ -1,12 +1,12 @@
-package lesson5.com_exzample_uni.service;
+package lesson5.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lesson5.com_exzample_uni.controller.StudentController;
-import lesson5.com_exzample_uni.model.StudentGroup;
-import lesson5.com_exzample_uni.model.impl.Student;
-import lesson5.com_exzample_uni.model.impl.Teacher;
+import lesson5.controller.StudentController;
+import lesson5.model.StudentGroup;
+import lesson5.model.impl.Student;
+import lesson5.model.impl.Teacher;
 
 public class StudentGroupService {
     public StudentGroup createStudentGroup(Teacher t, List<Student> s) {

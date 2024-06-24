@@ -1,10 +1,10 @@
-package lesson5.com_exzample_uni.controller;
+package lesson5.controller;
 
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.db.dataBase;
-import lesson5.com_exzample_uni.model.impl.Student;
-import lesson5.com_exzample_uni.service.StudentService;
+import lesson5.model.db.dataBase;
+import lesson5.model.impl.Student;
+import lesson5.service.StudentService;
 
 public class StudentController {
 

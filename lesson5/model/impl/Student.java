@@ -1,6 +1,6 @@
-package lesson5.com_exzample_uni.model.impl;
+package lesson5.model.impl;
 
-import lesson5.com_exzample_uni.model.User;
+import lesson5.model.User;
 
 public class Student extends User {
 

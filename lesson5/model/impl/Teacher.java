@@ -1,10 +1,10 @@
-package lesson5.com_exzample_uni.model.impl;
+package lesson5.model.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.User;
-import lesson5.com_exzample_uni.model.db.dataBase;
+import lesson5.model.User;
+import lesson5.model.db.dataBase;
 
 public class Teacher extends User {
 

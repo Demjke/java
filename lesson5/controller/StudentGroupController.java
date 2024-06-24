@@ -1,11 +1,11 @@
-package lesson5.com_exzample_uni.controller;
+package lesson5.controller;
 
 import java.util.List;
 
-import lesson5.com_exzample_uni.model.StudentGroup;
-import lesson5.com_exzample_uni.model.impl.Student;
-import lesson5.com_exzample_uni.model.impl.Teacher;
-import lesson5.com_exzample_uni.service.StudentGroupService;
+import lesson5.model.StudentGroup;
+import lesson5.model.impl.Student;
+import lesson5.model.impl.Teacher;
+import lesson5.service.StudentGroupService;
 
 public class StudentGroupController {
 

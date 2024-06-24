@@ -1,4 +1,4 @@
-package lesson5.com_exzample_uni.model;
+package lesson5.model;
 
 public abstract class User {
     protected int id;

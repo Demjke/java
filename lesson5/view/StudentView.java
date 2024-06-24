@@ -1,14 +1,14 @@
-package lesson5.com_exzample_uni.view;
+package lesson5.view;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import lesson5.com_exzample_uni.controller.StudentController;
-import lesson5.com_exzample_uni.controller.StudentGroupController;
-import lesson5.com_exzample_uni.model.StudentGroup;
-import lesson5.com_exzample_uni.model.db.dataBase;
-import lesson5.com_exzample_uni.model.impl.Student;
+import lesson5.controller.StudentGroupController;
+import lesson5.controller.StudentController;
+import lesson5.model.StudentGroup;
+import lesson5.model.db.dataBase;
+import lesson5.model.impl.Student;
 
 public class StudentView {
     private StudentController controller = new StudentController();
